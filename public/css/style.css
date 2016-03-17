@@ -1,0 +1,181 @@
+html {
+   font-family: "San Francisco", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+   font-size: 12pt;
+   display: inline-block;
+   margin: auto;
+   overflow-y: scroll;
+}
+
+.carousel-outer {
+  width: 2043px;
+  height: 260px;
+  background-color: white;
+  overflow: scroll;
+  margin-left: -112px;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-outer::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-inner {
+  width: 2500px;
+}
+
+.carouselItem {
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 681px;
+  height: 260px;
+}
+
+.carouselItem img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  margin: 40px auto auto auto;
+  width: 1728px;
+  /*background-color: skyblue*/
+}
+
+.newMusic {
+  float: left;
+  width: 80%;
+  height: 425px;
+  /*background-color: red;*/
+}
+
+
+.title {
+  font-size: 14pt;
+}
+
+.seeAll {
+  float: right;
+}
+
+.menu {
+  float: right;
+  width: 18%;
+  height: 800px;
+  /*background-color: green;*/
+  margin-left: 2%;
+}
+
+.newMusic .container-outer {
+  margin: 10px auto auto auto;
+  width: 99%;
+  /*background-color: orange;*/
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.newMusic .container-outer:hover {
+  overflow-x: scroll;
+}
+
+.newMusic .container-inner {
+  width: 2500px;
+}
+
+.smallMusicIcon {
+  float: left;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  width: 125px;
+  height: 175px;
+  /*background-color: purple;*/
+}
+
+.smallMusicIcon img {
+  width: 100%;
+  height: 75%;
+}
+
+.smallMusicIcon .info {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: -55px;
+}
+
+.smallMusicIcon .title {
+  font-size: 10pt;
+}
+
+.smallMusicIcon .subTitle {
+  margin-top: 3px;
+  font-size: 8pt;
+}
+
+.smallMusicIcon div {
+  display: block;
+  text-align: left;
+}
+
+.smallMusicIcon .explicit {
+  position: absolute;
+  float: right;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 0px;
+}
+
+.landscapeMusicItem {
+  float: left;
+  padding-right: 25px;
+  width: 275px;
+  height: 44px;
+}
+
+.landscapeMusicItem img {
+  width: 44px;
+  height: 44px;
+}
+
+.landscapeMusicItem .info {
+  position: relative;
+  margin-top: 5px;
+  padding-left: 50px;
+  margin-bottom: -55px;
+  width: 150px;
+}
+
+.landscapeMusicItem .title {
+  font-size: 12pt;
+  margin-top: -38px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.landscapeMusicItem .subtitle {
+  font-size: 10pt;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.landscapeMusicItem div {
+  display: block;
+  text-align: left;
+}
+
+.landscapeMusicItem .explicit {
+  position: absolute;
+  float: right;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 0px;
+  margin-right: -15px;
+}
